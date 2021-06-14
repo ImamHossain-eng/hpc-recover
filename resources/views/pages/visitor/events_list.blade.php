@@ -41,7 +41,7 @@
 					<h6>
 						<br>
 						<strong>
-							<a href="/news/{{$value->id}}">
+							<a href="/events/{{$value->id}}">
 						       {{$value->title}}
 					         </a>
 				        </strong>
@@ -52,7 +52,7 @@
 					</p>				
 			
 				<p>
-					<a href="/news/{{$value->id}}" class="btn btn-primary">Read More <i class="fa fa-arrow-circle-right"> </i></a>
+					<a href="/events/{{$value->id}}" class="btn btn-primary">Read More <i class="fa fa-arrow-circle-right"> </i></a>
 				</p><br>
 			</div>
 			</div>

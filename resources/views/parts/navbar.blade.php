@@ -74,8 +74,8 @@ Facilities
 News & Events
 </a>
 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-<a class="dropdown-item" href="#">News</a>
-<a class="dropdown-item" href="#">Events</a>
+<a class="dropdown-item" href="/news">News</a>
+<a class="dropdown-item" href="/events">Events</a>
 </div>
 </li>
 <li class="nav-item">

@@ -57,3 +57,5 @@ Route::prefix('admin')->group( function() {
 
 Route::get('/news', [PagesController::class, 'news_list']);
 Route::get('/news/{id}', [PagesController::class, 'news_show']);
+Route::get('/events', [PagesController::class, 'events_list']);
+Route::get('/events/{id}', [PagesController::class, 'events_show']);

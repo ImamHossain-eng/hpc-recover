@@ -32,4 +32,13 @@ class PagesController extends Controller
         $babu = Event::orderBy('created_at', 'desc')->where('type', 'news')->take(6)->get();
         return view('pages.visitor.news_show', compact('event', 'babu'));
     }
+    public function events_list(){
+        $news = Event::orderBy('created_at', 'desc')->where('type', 'event')->paginate(3);
+        return view('pages.visitor.events_list', compact('news'));
+    }
+    public function events_show($id){
+        $event = Event::find($id);
+        $babu = Event::orderBy('created_at', 'desc')->where('type', 'event')->take(6)->get();
+        return view('pages.visitor.news_show', compact('event', 'babu'));
+    }
 }
